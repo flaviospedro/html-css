@@ -13,12 +13,42 @@
            background-repeat: no-repeat; 
            background-size: cover; 
            min-height: 100vh;
-           margin: 0;
+           margin: 10px;
+           
+           
            
            
         }
 
+        h3{
+            color: rgb(193, 64, 64);
+            
+        }
 
+        .esquerda ul {
+            padding-left: 0;
+            margin-left: 0;
+        }
+
+        .esquerda{
+            margin-left: 70%;
+            background-color: rgba(36, 68, 183, 0.4);
+            padding: 4px;
+            text-align: center;
+              
+            
+        }
+
+        .esquerda1{
+            margin-right: 85%;
+            background-color: rgba(187, 14, 14, 0.323);
+            color: white;
+            padding: 4px 4px 4px 4px;
+           
+            
+        }
+
+        
       
 
 
@@ -26,9 +56,8 @@
             color: white;
         }
 
-        li{
-            color:white ;
-        }
+    
+        
         .titulo-com-borda {
         border: 8px solid black; /* borda sólida preta */
         padding: 10px; /* espaçamento interno */
@@ -60,11 +89,7 @@
             background-color: cadetblue;
         }
 
-        .video{
-             
-            
-
-        }
+       
        
 
 
@@ -75,35 +100,54 @@
     
  </head>
 <body>
-   <h1 class="titulo-com-borda">Meu Título com Borda</h1>
 
-   <h2 class="titulo-azul">Título 1</h2>
-   <h2 class="titulo-azul">Título 2</h2>
+    
 
-   <h3 class="titulo-verde">Título 3</h3>
-   <h3 class="titulo-verde">Título 4</h3>
-
-   <p class="paragrafos">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem fugit sit molestiae <a href="https://www.youtube.com/watch?v=1FuKRaeWSlE" target="_blank" rel="noopener">facilis </a>expedita amet harum necessitatibus tenetur id aut? Praesentium eum unde perferendis. Optio asperiores nesciunt dolorum reprehenderit quam!lorem
-   Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda aperiam ea mollitia voluptatem accusantium quam necessitatibus blanditiis quibusdam. Nam earum aliquam, excepturi voluptatem error dolorum nostrum aperiam soluta? Dolorem, non.</p>
-
-   
-
-   <div class="video">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/lNaoi5AUCsc?si=CiP24IBI6J2M259U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-   </div>
-
-   <ol>
-    <li>
-        cigarro
-    </li>
-    <li>
-        fosforo
-    </li>
-
-    <li>
-        esqueiro
-    </li>
-   </ol>
+    <main>
+        
+           <h1 class="titulo-com-borda">Meu Título com Borda</h1>
+        
+           <h2 class="titulo-azul">Título 1</h2>
+           <h2 class="titulo-azul">Título 2</h2>
+        
+           <h3 class="titulo-verde">Título 3</h3>
+           <h3 class="titulo-verde">Título 4</h3>
+        
+           <p class="paragrafos">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem fugit sit molestiae <a href="https://www.youtube.com/watch?v=1FuKRaeWSlE" target="_blank" rel="noopener">facilis </a>expedita amet harum necessitatibus tenetur id aut? Praesentium eum unde perferendis. Optio asperiores nesciunt dolorum reprehenderit quam!lorem
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda aperiam ea mollitia voluptatem accusantium quam necessitatibus blanditiis quibusdam. Nam earum aliquam, excepturi voluptatem error dolorum nostrum aperiam soluta? Dolorem, non.</p>
+        
+           <aside class="esquerda">
+        <h3>QUER SABER MAIS:</h3>
+        <ul class="esquerda">
+            <li>fosforo</li>
+            <li>bicarbonato</li>
+            <li>Leia também este artigo:</li>
+        </ul>
+        
+        
+        </aside>
+        
+           
+        
+           <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/lNaoi5AUCsc?si=CiP24IBI6J2M259U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+           </div>
+        
+           <aside class="esquerda1">
+           <ol>
+            <li>
+                cigarro
+            </li>
+            <li>
+                fosforo
+            </li>
+            <li>
+                esqueiro
+            </li>
+           </ol>
+           </aside>
+    </main>
+    
     
     
 </body>
