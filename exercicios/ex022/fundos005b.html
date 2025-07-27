@@ -20,32 +20,70 @@
            
         }
 
+         .titulo-azul:hover {
+            background-color: rgb(230, 217, 38);
+            color: purple;
+            cursor: pointer;
+
+        }
+
+        audio{
+            color: white;
+        }
+        h2{
+            color: white;
+            background-color: #ffd90065;
+            width: 300px;
+        }
+
         h3{
             color: rgb(193, 64, 64);
+            
             
         }
 
         .esquerda ul {
             padding-left: 0;
             margin-left: 0;
+            list-style-position: inside; 
         }
 
+        .esquerda ul li{
+            text-indent: -1em;
+            padding-left: 1em;
+            word-wrap: break-word;
+        }
+
+        
         .esquerda{
             margin-left: 70%;
             background-color: rgba(36, 68, 183, 0.4);
             padding: 4px;
-            text-align: center;
-              
-            
+            color: white;
+            width: fit-content;
+            padding-left: 10px;  
         }
 
         .esquerda1{
             margin-right: 85%;
             background-color: rgba(187, 14, 14, 0.323);
             color: white;
-            padding: 4px 4px 4px 4px;
+            padding: 4px;
            
             
+        }
+
+        footer {
+            color:  #FFD700; 
+            background-color: #333;
+            padding: 1em;
+            text-align: center;
+
+            position: absolute; 
+            left: 0;           
+            right: 0;        
+            width: 100%;   
+           
         }
 
         
@@ -54,6 +92,11 @@
 
         p {
             color: white;
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18;
+            text-indent: 2em;
+            line-height: 1.6; 
         }
 
     
@@ -68,7 +111,7 @@
 
         .titulo-azul{
             color: blue;
-            border: 10px solid black;
+            border: 5px solid black;
             padding: 5px ;
             width: 100px;
             height: 30px;
@@ -78,6 +121,8 @@
             font-weight: bold;
             
         }
+
+       
 
         .titulo-verde{
             color: rgb(30, 139, 42);
@@ -113,8 +158,10 @@
            <h3 class="titulo-verde">Título 3</h3>
            <h3 class="titulo-verde">Título 4</h3>
         
-           <p class="paragrafos">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem fugit sit molestiae <a href="https://www.youtube.com/watch?v=1FuKRaeWSlE" target="_blank" rel="noopener">facilis </a>expedita amet harum necessitatibus tenetur id aut? Praesentium eum unde perferendis. Optio asperiores nesciunt dolorum reprehenderit quam!lorem
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda aperiam ea mollitia voluptatem accusantium quam necessitatibus blanditiis quibusdam. Nam earum aliquam, excepturi voluptatem error dolorum nostrum aperiam soluta? Dolorem, non.</p>
+           <p class="paragrafos">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem fugit sit molestiae <expedita href="https://www.youtube.com/watch?v=1FuKRaeWSlE" target="_blank" rel="noopener">facilis expedita amet harum necessitatibus tenetur id aut? Praesentium eum unde perferendis. Optio asperiores nesciunt dolorum reprehenderit quam!lorem,
+           Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Assumenda aperiam ea mollitia voluptatem accusantium quam necessitatibus blanditiis quibusdam. Nam 
+                            earum aliquam, excepturi       voluptatem     error dolorum    nostrum      aperiam soluta? Dolorem,    </p>
         
            <aside class="esquerda">
         <h3>QUER SABER MAIS:</h3>
@@ -146,7 +193,19 @@
             </li>
            </ol>
            </aside>
+           <section>
+            <h2>Ouça o ádio!!</h2>
+            <p>Aproveitre o áudio</p>
+            <audio controls preload src="audio/Ordinary Men - Mark Karan, Scott Guberman, Angeline Saris, Jeremy Hoenig.mp3"></audio>
+           </section>
     </main>
+
+    <footer>
+       &reg; Blog do Flaviano. Todos os direitos reservados.
+       
+      
+
+    </footer>
     
     
     
